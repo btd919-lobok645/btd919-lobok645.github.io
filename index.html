@@ -13,26 +13,32 @@
       line-height: 1.7;
       color: #333;
     }
-    h1 {
-      color: #1a5490;
-      border-bottom: 3px solid #1a5490;
-      padding-bottom: 10px;
-    }
     header {
+      display: flex;
+      align-items: center;
+      gap: 24px;
       border-bottom: 1px solid #ddd;
       padding-bottom: 20px;
       margin-bottom: 30px;
     }
-    header img {
-      display: block;
+    header h1 {
+      margin: 0;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    .slogan {
+      margin: 6px 0 0;
+      color: #666;
+      font-size: 15px;
     }
   </style>
 <body>
   <header>
-    <img src="logo.svg" alt="환진 로고" width="240">
+    <img src="logo.svg" alt="환진 로고" width="120">
+    <div>
+      <h1>안녕하세요</h1>
+      <p class="slogan">창의적인 사고와 혁신적인 기술로<br>새로운 세상과 연결하는 기업</p>
+    </div>
   </header>
-  <h1>안녕하세요</h1>
-  <p>연습용으로 만든 첫 번째 홈페이지입니다.</p>
-  <p>개인 자료 및 사업용 홈페이지를 미리 준비하려고 합니다.</p>
 </body>
 </html>

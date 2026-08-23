@@ -11,12 +11,12 @@
     body {
       font-family: sans-serif;      /* 고딕 계열 글꼴 */
       max-width: 700px;             /* 글이 너무 넓게 퍼지지 않도록 제한 */
-      margin: 40px 60px;            /* 위아래 여백 40px, 좌우는 가운데 정렬 */
+      margin: 40px 60px;            /* 위아래 여백 40px, 좌우 여백 60px */
       padding: 0 20px;              /* 좌우 안쪽 여백 (화면이 좁을 때 글자가 붙는 것 방지) */
       line-height: 1.7;             /* 줄 간격 */
       color: #333;                  /* 글자색 (완전 검정보다 부드러움) */
     }
-
+    
     /* ===== 헤더: 로고 + 제목/슬로건 ===== */
     header {
       display: flex;
@@ -27,6 +27,8 @@
       border-bottom: 2px solid #1a5490;  /* 아래 구분선을 브랜드 색으로 */
       margin-bottom: 30px;
     }
+
+    
 
     header h1 {
       margin: 0;                    /* 기본 여백 제거 (헤더 안에서는 불필요) */
@@ -53,7 +55,7 @@
     } 
   </style>
 </head>
-
+  
 <body>
 
   <!-- 헤더: 모든 페이지에 공통으로 들어갈 부분 -->

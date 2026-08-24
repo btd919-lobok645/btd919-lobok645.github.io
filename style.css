@@ -64,3 +64,28 @@ footer {
   font-size: 14px;
   color: #888;
 }
+
+/* ===== 홈 안내 링크 ===== */
+.home-links {
+  list-style: none;        /* 목록 앞의 점(•) 제거 */
+  padding: 0;              /* 목록 기본 왼쪽 여백 제거 */
+  margin-top: 24px;
+}
+.home-links li {
+  padding: 16px 0;                    /* 항목 위아래 여백 */
+  border-bottom: 1px solid #eee;      /* 항목 사이 옅은 구분선 */
+}
+.home-links a {
+  color: #1a5490;
+  text-decoration: none;   /* 밑줄 제거 */
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 12px;      /* 링크와 설명 사이 간격 */
+}
+.home-links a:hover {
+  text-decoration: underline;   /* 마우스 올리면 밑줄 */
+}
+.home-links span {
+  color: #777;             /* 설명은 흐린 회색 */
+  font-size: 14px;
+}

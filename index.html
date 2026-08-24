@@ -5,82 +5,10 @@
   <!-- 모바일에서 화면 크기에 맞게 조절되도록 하는 설정 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>환진 (桓辰)</title>
-
-  <style>
-    /* ===== 전체 기본 설정 ===== */
-    body {
-      font-family: sans-serif;      /* 고딕 계열 글꼴 */
-      max-width: 700px;             /* 글이 너무 넓게 퍼지지 않도록 제한 */
-      margin: 40px 60px;            /* 위아래 여백 40px, 좌우 여백 60px */
-      padding: 0 20px;              /* 좌우 안쪽 여백 (화면이 좁을 때 글자가 붙는 것 방지) */
-      line-height: 1.7;             /* 줄 간격 */
-      color: #333;                  /* 글자색 (완전 검정보다 부드러움) */
-    }
-    
-    /* ===== 헤더: 로고 + 제목/슬로건 ===== */
-    header {
-      display: flex;
-      align-items: center;
-      gap: 24px;
-      padding: 15px;                /* 배경 안쪽 여백 */
-      padding-bottom: 5px;         /* 구분선까지의 여백 */
-      border-bottom: 2px solid #1a5490;  /* 아래 구분선을 브랜드 색으로 */
-      margin-bottom: 30px; 
-    }
-
-    header h1 {
-      margin: 0;                    /* 기본 여백 제거 (헤더 안에서는 불필요) */
-      color: #1a5490;               /* 제목 파란색 */
-      font-size: 30px;
-    }
-
-    /* class="slogan" 이 붙은 요소만 골라서 꾸밈 */
-    .slogan, .mission {
-      margin: 2px 0 0;              /* 위쪽만 6px 띄우고 나머지는 0 */
-      color: #444;                  /* 회색을 조금 진하게 (#666 → #444) */
-      font-size: 16px;              /* 15px → 16px */
-      line-height: 1.7;             /* 줄 간격도 살짝 좁게 */
-    }
-
-    /* ===== 메뉴 ===== */
-    nav {
-      margin-bottom: 30px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid #ddd;
-    }
-    nav a {
-      color: #1a5490;               /* 링크 색 */
-      text-decoration: none;        /* 밑줄 제거 */
-      margin-right: 24px;           /* 메뉴 사이 간격 */
-      font-size: 16px;
-    }
-    nav a:hover {
-      text-decoration: underline;   /* 마우스 올리면 밑줄 */
-    }
-    
-    main h2, main h3 {
-      color: #1a5490;
-      font-size: 20px;
-      margin-top: 32px;
-      border-bottom:  2px solid #c5d5e5;
-      padding-bottom: 8px;
-    }
-
-    /* ===== 본문 ===== */
-    
-    /* ===== 푸터: 맨 아래 정보 ===== */
-    footer {
-      margin-top: 50px;
-      padding-top: 20px;
-      border-top: 1px solid #ddd;
-      font-size: 14px;
-      color: #888;
-    } 
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
   
 <body>
-
   <!-- 헤더: 모든 페이지에 공통으로 들어갈 부분 -->
   <header>
     <img src="logo.svg" alt="환진 로고" width="120">

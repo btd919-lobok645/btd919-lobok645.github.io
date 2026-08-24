@@ -1,0 +1,60 @@
+<!DOCTYPE html>                             <!-- 이 문서가 HTML임을 선언. 항상 첫 줄 -->
+<html lang="ko">                            <!-- 문서 시작. lang="ko"는 한국어 문서라는 표시 -->
+<head>                                      <!-- 화면에 안 보이는 설정 영역 -->
+  <meta charset="UTF-8">                    <!-- 한글이 깨지지 않게 하는 문자 인코딩 설정 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                            <!-- 모바일에서 화면 크기에 맞춰 표시되도록 하는 설정 -->
+  <title>작업기록 | 환진 (桓辰)</title>      <!-- 브라우저 탭에 뜨는 이름. 페이지마다 다르게 -->
+  <link rel="stylesheet" href="style.css">  <!-- 외부 CSS 파일 불러오기 -->
+</head>
+
+<body>                                      <!-- 실제로 화면에 보이는 내용 시작 -->
+
+  <!-- 헤더: 모든 페이지에 동일하게 들어감 -->
+  <header>
+    <img src="logo.svg" alt="환진 로고" width="120">
+    <div>
+      <h1>환진 (桓辰)</h1>
+      <p class="mission">변화하는 시대 속에서 혁신을 이끄는 중심으로 서다.</p>
+      <p class="slogan">창의적인 사고와 혁신적인 기술로 새로운 세상과 연결하는 기업</p>
+    </div>
+  </header>
+
+  <!-- 메뉴: 모든 페이지에 동일하게 들어감 -->
+  <nav>
+    <a href="index.html">홈</a>
+    <a href="about.html">회사소개</a>
+    <a href="products.html">제품소개</a>
+    <a href="log.html">작업기록</a>
+  </nav>
+
+  <!-- 본문: 작업 기록을 최신순으로 -->
+  <main>
+
+    <h2>작업기록</h2>
+    <p>제작 과정과 진행 상황을 기록합니다.</p>
+
+    <!-- 기록 한 건 = article 하나. 새 기록은 이 묶음을 복사해서 맨 위에 추가 -->
+    <article class="log-item">
+      <p class="log-date">2026-08-24</p>     <!-- 날짜 -->
+      <h3>홈페이지 페이지 구성</h3>           <!-- 제목 -->
+      <p>회사소개·제품소개·작업기록 페이지를 만들고 메뉴로 연결했다.
+         CSS를 style.css로 분리해 모든 페이지가 같은 스타일을 쓰도록 했다.</p>
+    </article>
+
+    <article class="log-item">
+      <p class="log-date">2026-08-23</p>
+      <h3>홈페이지 제작 시작</h3>
+      <p>GitHub Pages로 첫 페이지를 배포했다. HTML 기본 구조와 CSS를 익히고,
+         SVG로 로고를 만들어 헤더에 넣었다.</p>
+    </article>
+
+  </main>
+
+  <!-- 푸터: 모든 페이지에 동일하게 들어감 -->
+  <footer>
+    <p>&copy; 2026 환진 (桓辰)</p>
+  </footer>
+
+</body>
+</html>

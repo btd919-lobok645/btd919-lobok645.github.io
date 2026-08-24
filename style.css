@@ -1,0 +1,66 @@
+css
+/* ===== 전체 기본 설정 ===== */
+body {
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 40px 60px;
+  padding: 0 20px;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* ===== 헤더 ===== */
+header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 15px;
+  padding-bottom: 0px;
+  border-bottom: 2px solid #1a5490;
+  margin-bottom: 30px;
+}
+header h1 {
+  margin: 0;
+  color: #1a5490;
+  font-size: 30px;
+}
+.slogan, .mission {
+  margin: 2px 0 0;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ===== 메뉴 ===== */
+nav {
+  margin-bottom: 30px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  color: #1a5490;
+  text-decoration: none;
+  margin-right: 24px;
+  font-size: 16px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== 본문 ===== */
+main h2, main h3 {
+  color: #1a5490;
+  font-size: 20px;
+  margin-top: 32px;
+  border-bottom: 1px solid #c5d5e5;
+  padding-bottom: 8px;
+}
+
+/* ===== 푸터 ===== */
+footer {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  color: #888;
+}

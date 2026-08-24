@@ -89,3 +89,25 @@ footer {
   color: #777;             /* 설명은 흐린 회색 */
   font-size: 14px;
 }
+
+/* ===== 작업기록 ===== */
+.log-item {
+  margin-top: 32px;                   /* 기록 사이 간격 */
+  padding-bottom: 24px;               /* 아래 구분선까지의 여백 */
+  border-bottom: 1px solid #eee;      /* 기록 사이 옅은 구분선 */
+}
+.log-date {
+  margin: 0;                          /* 기본 여백 제거 */
+  color: #888;                        /* 날짜는 흐리게 */
+  font-size: 14px;
+}
+.log-item h3 {
+  margin: 4px 0 8px;                  /* 위 4px, 아래 8px, 좌우 0 */
+  color: #1a5490;
+  font-size: 18px;
+  border-bottom: none;                /* main h3에 걸린 밑줄을 여기서만 제거 */
+  padding-bottom: 0;                  /* 같이 걸린 여백도 제거 */
+}
+.log-item p {
+  margin: 0;
+}

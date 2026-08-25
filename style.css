@@ -118,3 +118,39 @@ nav a.current {
   border-bottom: 2px solid #1a5490;  /* 아래 밑줄 */
   padding-bottom: 4px;            /* 글자와 밑줄 사이 간격 */
 }
+
+/* ===== 모바일 대응 ===== */
+/* @media = 조건이 맞을 때만 안쪽 규칙을 적용
+   여기서는 화면 폭이 600px 이하일 때만 발동. PC 화면은 그대로 유지됨 */
+@media (max-width: 600px) {
+
+  body {
+    margin: 20px 0;               /* 좌우 여백 제거 (좁은 화면에서는 공간이 아까움) */
+    padding: 0 16px;              /* 안쪽 여백만 남겨서 글자가 화면 끝에 붙는 것 방지 */
+  }
+
+  header {
+    flex-direction: column;       /* 가로 배치 → 세로 배치 (로고 위, 글자 아래) */
+    align-items: flex-start;      /* 세로 배치일 때는 왼쪽 정렬 */
+    gap: 12px;                    /* 로고와 글자 사이 간격 축소 */
+    padding: 0;
+    padding-bottom: 12px;
+  }
+
+  header img {
+    width: 80px;                  /* 로고 축소. HTML의 width 속성보다 CSS가 우선 적용됨 */
+  }
+
+  header h1 {
+    font-size: 24px;              /* 제목 축소 (PC에서는 30px) */
+  }
+
+  .slogan, .mission {
+    font-size: 14px;              /* 본문 글자 축소 */
+  }
+
+  nav a {
+    margin-right: 16px;           /* 메뉴 간격 축소 — 4개가 한 줄에 들어가도록 */
+    font-size: 15px;
+  }
+}
